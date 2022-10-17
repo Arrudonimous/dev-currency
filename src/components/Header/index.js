@@ -7,6 +7,7 @@ export default function Header() {
   const { handleToggleState } = useContext(ReloadContext);
 
   useEffect(() => {
+    handleToggleState();
   }, []);
 
   return (
