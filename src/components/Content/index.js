@@ -9,7 +9,7 @@ export default function Content() {
   const { state } = useContext(ReloadContext);
   const [info, setInfo] = useState();
 
-  const urlCoin = 'https://rest.coinapi.io/v1/assets?apikey=33B66405-8F06-4334-87AB-E8E6B5975D82';
+  const urlCoin = 'https://rest.coinapi.io/v1/assets?apikey=96E2FB80-CF78-4830-B601-2AE17FC949C1';
 
   useEffect(() => (
     async () => {

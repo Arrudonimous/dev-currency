@@ -1,10 +1,14 @@
 import { BsArrowClockwise } from 'react-icons/bs';
-import { useContext } from 'react';
+import { useContext, useEffect } from 'react';
 import { Container } from './styles';
 import { ReloadContext } from '../../context/ReloadContext';
 
 export default function Header() {
   const { handleToggleState } = useContext(ReloadContext);
+
+  useEffect(() => {
+  }, []);
+
   return (
     <Container>
       <h1>Dev</h1>
