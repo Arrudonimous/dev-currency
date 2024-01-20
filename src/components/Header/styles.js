@@ -7,6 +7,9 @@ export const Container = styled.header`
   align-items: center;
   justify-content: center;
   margin-top: 15vh;
+  @media(max-width: 550px){
+    flex-direction: column;
+  }
 
   h1{
     font-size: 46px;
